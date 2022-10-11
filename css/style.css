@@ -1,0 +1,211 @@
+body{
+
+    background:#f4f4f4;
+    margin: 0;
+}
+
+.link-title{
+    width:100px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    color:#444444;
+    transition: 2s;
+   
+}
+.link-title:hover{
+   font-size: 24px;
+}
+
+.container{
+
+    width: 780px;
+    margin:0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+
+}
+
+.menu{
+
+    background: #3b7687;
+    padding:6px 0 6px 40px;
+}
+
+.menu a {
+
+    color:#c5d6db;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
+
+.menu a:hover{
+
+    color:#ecf2f3;
+}
+
+/* Inplementim konkret i float-it */
+aside{
+
+    float:left;
+    width:120px;
+    padding:30px 0 0 40px;
+
+    
+
+}
+
+aside h1{
+
+    position: relative;
+    color:green;
+    animation-name: example;
+    animation-duration: 6s;
+   
+      
+}
+
+@keyframes example {
+    0%   { color:green;left:0px; top:0px;}
+    25%  { color:yellow;left: 40px;px; top:0px;}
+    50%  { color:blue;left:40px; top:50px;}
+    75%  { color:red;left:0px; top:40px;}
+    100% { color:green; left:0px; top:0px;}
+  }
+h1{
+
+    margin:0px;
+    color:#869843;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myriad Pro";
+    
+}
+
+.main{
+    
+    margin:0 0 0 180px;
+    padding:35px 40px 30px 0;
+    color:#444444;
+    font-family: "Georgia";
+    font-size:16px;
+    text-align: justify;
+}
+
+#home-image img{
+    width: 60%;
+    float:right;
+    padding: 15px;
+    
+  
+    
+}
+
+footer{
+
+    padding: 6px 40px 6px 40px;
+    background:#3b7687;
+    font-family: "Lucida sans Unicode";
+    color:#ffffff;
+    font-size: 12px;
+    text-align: right;
+}
+
+footer a{
+
+    text-decoration: none;
+    color:#262626;
+}
+
+.seperator{
+
+    color:#FFFFFF;
+    font-size:12px;
+}
+
+/*******************************About Page Style*******************/
+
+#about-page #about-image img{
+   width:70%;
+     
+}
+
+#about-page #profile-info{
+    width:25%;
+    float:left;
+    margin:5px;
+}
+
+#about-page .description{
+   
+    clear:both;
+    
+}
+
+/*************************Contact form Style*************************************/
+
+#contact #form{
+    width:500px;
+    padding: 10px 10px 10px 10px;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+#contact .contact-heding{
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact #form input{
+
+    width:100%;
+    border-radius:5px;
+    height: 20px;
+    background: #D6D6D6
+
+}
+
+#contact #form #message{
+    width:100%;
+    border-radius:5px;
+    background: #D6D6D6
+
+}
+
+#contact #form #submit{
+
+    height: 30px;
+    background: rgb(59,118,135);
+}
+
+#contact #form #reset{
+
+    height: 30px;
+    background: rgb(59,118,135);
+}
+
+/***************Pak flex***************/
+
+.galery {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   
+   
+    
+   
+  }
+
+
+  .galery div {
+    padding: 5px;
+    border: 2px solid rgb(137, 238, 140);
+    
+
+  }
+
